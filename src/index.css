@@ -177,11 +177,99 @@ footer {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  padding: 16px;
+  gap: 20px;
+  padding: 20px;
 }
 
 .card--img {
   width: 100%;
   border-radius: 5px;
+  margin-top: 10px;
+}
+
+.vans--page > h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.van--card > a {
+text-decoration: none;
+color: #000000;
+}
+
+.van--hero {
+  display: flex;
+  margin: 20px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+.van--links .link-button {
+  background-color: #FFEAD0;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.van--filter {
+  display: flex;
+  align-items: center;
+}
+
+.van--filter > a {
+  color: #000000;
+}
+.van--title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.van--name > h3 {
+  margin: 0;
+  padding: 0;
+}
+.van--price > h3 {
+  margin: 0;
+  padding: 0;
+}
+.van--price > p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  justify-self: end;
+}
+
+.van--card .simple .link-button {
+  background-color: #E17654;
+  color: white;
+  padding: 10px;
+  width: 85px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.van--card .rugged .link-button {
+  background-color: #115E59;
+  color: white;
+  padding: 10px;
+  width: 85px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.van--card .luxury .link-button {
+  background-color: #161616;
+  color: white;
+  padding: 10px;
+  width: 85px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
 }

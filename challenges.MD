@@ -50,3 +50,8 @@
  * 2. What React hook would you use to fetch data as soon as the
  *    Vans page loads, and only fetch it the one time?
  */
+
+ /**
+ * Challenge 6: Wrap the contents of the "van-tile" div in a 
+ * Link that sends the user to `/vans/${van-id-here}`.
+ */
