@@ -55,3 +55,9 @@
  * Challenge 6: Wrap the contents of the "van-tile" div in a 
  * Link that sends the user to `/vans/${van-id-here}`.
  */
+
+  /** VanDetail page
+  * Challenge 7 
+  part 1:
+  * Re-write what I just wrote and console log the params object (note: useParams from react-router-dom)
+  */
