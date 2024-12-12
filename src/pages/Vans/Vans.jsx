@@ -1,5 +1,5 @@
 import React from "react";
-import VanCard from "../components/VanCard";
+import VanCard from "../../components/VanCard";
 import { Link } from "react-router-dom";
 
 

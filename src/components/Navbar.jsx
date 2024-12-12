@@ -1,3 +1,5 @@
+// built this at the beginning before realizing the course was going to call this the Header component. Copied this over to Header for the sake of continuity with course work.
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
